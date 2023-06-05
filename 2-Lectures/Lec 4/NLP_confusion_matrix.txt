@@ -1,0 +1,20 @@
+how many relevant documents were retrieved by the algorithm 
+
+150 documents => true positve يعى الحاجات اللى انا كنت عايزها تظهر ظهر منه قد ايه 
+
+------------------------------------------------------------------
+how many irrelevant documtes were retrieved by the algoritm? 
+100 document => false postive  يعنى عدد الحاجات اللى ظهرت ولقيتها ملهاش علاقة باللى انا عايزه 
+-------------------------------------------------------------------
+how may relevant documents did the algoritm not retrieve ? 
+50 documents -> false negative يعنى عدد الحاجات اللى انا كنت عايزه يرجعها بس هو مرجعهاش     
+---------------------------------------------------------------------
+how many irrelevant documents did the algoritm not retrieve ? 
+700 documents => true negative يعنى عدد الحاجات اللى ملهاش علاقة باللى انا عايزه وهو فعلا طلع جدع ومرجعهاش 
+-------------------------
+postive معناها ايه اللى رجع 
+negative معانها اللى مرجعش 
+----------------------------------
+accuracy= true_pos+true_neg/(كله )
+perstion= true postive /(مجموع الموجب ) (اللى طلع كله بمعنى اصح )
+recall  = true postive / true postive +false negative => يعنى الصح كله اللى كان المفروض يطلع  
